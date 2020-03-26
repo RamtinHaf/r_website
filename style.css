@@ -1,0 +1,45 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    height: 110px;
+    line-height: 110px;
+}
+
+.logo {
+    width: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.header {}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline;
+}
+
+header nav ul a {
+    padding-right: 30px;
+    color: white;
+    transition: all 0.4s ease-in;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav ul a:hover {
+    color: darkblue;
+}
+
+header nav {
+    float: right;
+    font-weight: bold;
+}
